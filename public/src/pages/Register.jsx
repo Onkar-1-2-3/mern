@@ -65,6 +65,36 @@ const FormContainer = styled.div`
         border: 0.1rem solid #4e0eff;
         border-radius:0%.4rem;
         color:white;
+        width: 100%;
+        font-size: 1rem;
+        &:focus{
+            border: 0.1rem solid #997af0;
+            outline: none;
+        }
+    }
+    button{
+        background-color: #997af0;
+        color:white;
+        padding: 1rem 2rem;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 0.4rem;
+        font-size: 1rem;
+        text-transform: uppercase;
+        transition: 0.5s ease-in-out;
+        &:hover {
+            background-color:#4e0eff;
+        }
+    }
+    span{
+        color: white;
+        text-transform: uppercase;
+        a {
+            color: #4e0eff;
+            text-decoration: none;
+            font-weight: bold;
+        }
     }
  }
 `;
